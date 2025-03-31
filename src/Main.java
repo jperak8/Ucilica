@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Trokut trokut = new Trokut("pravokutni trokut", 5, 7, 8.602325267042627 );
+        Trokut trokut = new Trokut("pravokutni", 5, 7, 8.602325267042627 );
 
         System.out.println("Hipotenuza pravokutnog trokuta je: " + trokut.getStranicaC());
 
-        trokut.setNaziv("raznostranični");
+        trokut.setNaziv("raznostranični trokut");
 
         System.out.println("Naziv nakon promjene naziva je: " + trokut.getNaziv());
 
