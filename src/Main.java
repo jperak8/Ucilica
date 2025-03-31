@@ -28,6 +28,18 @@ public class Main {
         System.out.println("Naziv pravokutnika je: " + pravokutnik.getNaziv());
         System.out.println("Stranica B pravokutnika je: " + pravokutnik.getStranicaB());
 
+        System.out.println("Opseg kruga je: " + krug.opseg() + " a površina kruga je: " + krug.povrsina());
+
+        System.out.println("Opseg pravokutnika je: " + pravokutnik.opseg() + " a površina pravokutnika je: " + pravokutnik.povrsina());
+
+        System.out.println("Opseg trokuta je: " + trokut.opseg() + " a površina trokuta je: " + trokut.povrsina());
+
+        System.out.println(krug.toString());
+
+        System.out.println(trokut.toString());
+
+        System.out.println(pravokutnik.toString());
+
     }
 
 }
