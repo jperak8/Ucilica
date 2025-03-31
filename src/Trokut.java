@@ -1,6 +1,5 @@
 public class Trokut extends GeometrijskiLik {
 
-    private double poluperimeter;
     private double racun;
     private double stranicaA;
     private double stranicaB;
@@ -37,7 +36,7 @@ public class Trokut extends GeometrijskiLik {
 
     @Override
     public double povrsina() {
-        poluperimeter = (stranicaA + stranicaB + stranicaC) / 2;
+        double poluperimeter = opseg() / 2;
         racun = poluperimeter * (poluperimeter - stranicaA) * (poluperimeter - stranicaB) * (poluperimeter - stranicaC);
         return Math.sqrt(racun);
     }
