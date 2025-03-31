@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Trokut trokut = new Trokut("pravokutni", 5, 7, 8.602325267042627 );
+        Trokut trokut = new Trokut("pravokutni trokut", 5, 7, 8.602325267042627 );
 
         System.out.println("Hipotenuza pravokutnog trokuta je: " + trokut.getStranicaC());
 
@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Naziv nakon promjene naziva je: " + trokut.getNaziv());
 
-        Krug krug = new Krug("šareni", 6);
+        Krug krug = new Krug("šareni krug", 6);
 
         System.out.println("Naziv kruga je: " + krug.getNaziv());
         System.out.println("Radius kruga je: " + krug.getRadius());
@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Nije!");
         }
 
-        Pravokutnik pravokutnik = new Pravokutnik("četvrtasti", 10.7, 190.952);
+        Pravokutnik pravokutnik = new Pravokutnik("četvrtasti pravokutnik", 10.7, 190.952);
 
         pravokutnik.setStranicaA(78.42);
         System.out.println("Stranica A pravokutnika je: " + pravokutnik.getStranicaA());
