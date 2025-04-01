@@ -1,4 +1,4 @@
-public abstract class GeometrijskiLik {
+public abstract class GeometrijskiLik implements Comparable<GeometrijskiLik> {
 
     private String naziv;
 
@@ -22,5 +22,12 @@ public abstract class GeometrijskiLik {
     public String toString(){
         return  "Naziv: " + naziv + " opseg: " + opseg() + " površina: " + povrsina();
     }
+
+    @Override
+    public int compareTo(GeometrijskiLik drugi) {
+        return Double.valueOf(this.povrsina()).compareTo(Double.valueOf(drugi.povrsina()));
+        //return Double.valueOf(this.opseg()).compareTo(Double.valueOf(drugi.opseg()));
+    }
+
 
 }
