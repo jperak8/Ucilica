@@ -24,6 +24,14 @@ public class Main {
             System.out.println(lik.toString());
         }
 
+        System.out.println(krug.crtaj());
+        System.out.println(pravokutnik.crtaj());
+        System.out.println(trokut.crtaj());
+
+        System.out.println(krug.crtajBroj(2));
+        System.out.println(pravokutnik.crtajBroj(4));
+        System.out.println(trokut.crtajBroj(3));
+
     }
 
 }

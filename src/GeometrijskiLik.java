@@ -1,4 +1,4 @@
-public abstract class GeometrijskiLik implements Comparable<GeometrijskiLik> {
+public abstract class GeometrijskiLik implements Comparable<GeometrijskiLik>, Crtanje {
 
     private String naziv;
 

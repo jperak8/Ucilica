@@ -45,4 +45,14 @@ public class Trokut extends GeometrijskiLik {
     public double opseg() {
         return stranicaA + stranicaB + stranicaC;
     }
+
+    @Override
+    public String crtaj() {
+        return "Crtaj trokut";
+    }
+
+    @Override
+    public String crtajBroj(int i) {
+        return "Crtaj " + i + " trokuta";
+    }
 }

@@ -25,4 +25,13 @@ public class Krug extends GeometrijskiLik {
         return 2 * radius * Math.PI;
     }
 
+    @Override
+    public String crtaj() {
+        return "Crtaj krug";
+    }
+
+    @Override
+    public String crtajBroj(int i) {
+        return "Crtaj " + i + " kruga";
+    }
 }

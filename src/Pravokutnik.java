@@ -34,4 +34,14 @@ public class Pravokutnik extends GeometrijskiLik {
     public double opseg() {
         return 2 * (stranicaA + stranicaB);
     }
+
+    @Override
+    public String crtaj() {
+        return "Crtaj pravokutnik";
+    }
+
+    @Override
+    public String crtajBroj(int i) {
+        return "Crtaj " + i + " pravokutnika";
+    }
 }
